@@ -33,6 +33,6 @@ Table of Contents:
 
 4) Contact:
 
-  Divya Tyagi
-  Bipul Kumar
-  Ashish Kulkarni
+  Divya Tyagi : 
+  Bipul Kumar : bipulkumar90@gmail.com
+  Ashish Kulkarni : kulkarniashisha2015@gmail.com

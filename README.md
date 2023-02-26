@@ -18,7 +18,7 @@ A CNN based model which can accurately detect melanoma.
    - The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). 
    - All images were classified according to the ISIC classification and all subsets were divided into an equal number of images except for slightly predominant           melanomas and moles.
    
-  **2. Project Pipeline**
+  **2. Project Pipeline:**
   
 - Data Reading/Data Understanding → Defining the path for train and test the images
 - Dataset Creation→ Create train & validation dataset from the train directory with a batch size of 32. Also, make sure you resize your images to 180*180.
@@ -38,26 +38,25 @@ A CNN based model which can accurately detect melanoma.
    - Rectify class imbalances present in the training dataset with Augmentor library. Model Building & training on the rectified class imbalance data:
    - Create a CNN model, which can accurately detect 9 classes present in the dataset. While building the model rescale images to normalize pixel values between (0,1).
    - Choose an appropriate optimiser and loss function for model training
-   - Train the model for ~30 epochs
+   - Train the model for ~50 epochs
    - Write your findings after the model fit, see if the issues are resolved or not?
     
- 3 Conclusions:
-
-    Image augmentation got rid of overfitting
+ **3. Conclusions:**
+ 
+ - Image augmentation got rid of overfitting
+ - Rectifying the class imbalance got rid of underfitting
     
-    Rectifying the class imbalance got rid of underfitting
-    
-3) Technologies Used:
+**4. Technologies Used:**
 
-    TensorFlow Version:  2.8.0
-    NumPy Version:  1.22.4
-    Pandas Version:  1.3.5
-    PIL Version:  7.1.2
-    Keras Version:  2.8.0
+    1.TensorFlow Version:  2.8.0
+    2.NumPy Version:  1.22.4
+    3.Pandas Version:  1.3.5
+    4.PIL Version:  7.1.2
+    5.Keras Version:  2.8.0
     
 
-4) Contact:
+**5. Contact:**
 
-   Divya Tyagi : 
-   Bipul Kumar : bipulkumar90@gmail.com
-   Ashish Kulkarni : kulkarniashisha2015@gmail.com
+   - Divya Tyagi : divyatyagi1007@gmail.com
+   - Bipul Kumar : bipulkumar90@gmail.com
+   - Ashish Kulkarni : kulkarniashisha2015@gmail.com

@@ -21,6 +21,7 @@ Table of Contents:
 2) Conclusions:
 
     Image augmentation got rid of overfitting
+    
     Rectifying the class imbalance got rid of underfitting
     
 
